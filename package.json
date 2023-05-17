@@ -1,0 +1,38 @@
+{
+  "name": "element-demi",
+  "version": "0.0.1",
+  "description": "An adapter for using Element UI with Vue 2 / 3",
+  "main": "libs/index.cjs.js",
+  "typings": "libs/index.d.ts",
+  "module": "libs/index.esm.js",
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js",
+    "release": "npx bumpp --tag --commit --push && npm publish"
+  },
+  "files": [
+    "lib",
+    "scripts"
+  ],
+  "keywords": [
+    "vue",
+    "vue2",
+    "vue3",
+    "element-ui",
+    "element-plus"
+  ],
+  "peerDependencies": {
+    "element-plus": "^2.3.4",
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.0 || >=3.0.0-rc.1"
+  },
+  "sideEffects": false,
+  "author": "sunjun",
+  "license": "MIT",
+  "dependencies": {
+    "vue-demi": "^0.6.0",
+    "element-plus": "^2.3.4",
+    "element-ui": "^2.13.2"
+  },
+  "devDependencies": {
+  }
+}
