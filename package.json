@@ -5,9 +5,10 @@
   "main": "libs/index.cjs.js",
   "typings": "libs/index.d.ts",
   "module": "libs/index.esm.js",
+  "repository": "https://github.com/SunJun123/element-demi.git",
   "scripts": {
     "postinstall": "node ./scripts/postinstall.js",
-    "release": "npx bumpp --tag --commit --push && npm publish"
+    "release": "npm publish"
   },
   "files": [
     "lib",
@@ -23,16 +24,11 @@
   "peerDependencies": {
     "element-plus": "^2.3.4",
     "element-ui": "^2.13.2",
-    "vue": "^2.6.0 || >=3.0.0-rc.1"
+    "vue": "^2.6.0 || >=3.0.0-0"
   },
   "sideEffects": false,
   "author": "sunjun",
   "license": "MIT",
-  "dependencies": {
-    "vue-demi": "^0.6.0",
-    "element-plus": "^2.3.4",
-    "element-ui": "^2.13.2"
-  },
   "devDependencies": {
   }
 }

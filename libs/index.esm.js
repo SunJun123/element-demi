@@ -1,5 +1,5 @@
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
 
-export * from 'element-ui'
+import ElementUI from 'element-plus'
+
+export * from 'element-plus'
 export default ElementUI

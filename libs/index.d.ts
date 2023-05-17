@@ -1,4 +1,4 @@
-import ElementUI from 'element-ui'
+import ElementUI from 'element-plus'
 
-export * from 'element-ui'
+export * from 'element-plus'
 export default ElementUI
